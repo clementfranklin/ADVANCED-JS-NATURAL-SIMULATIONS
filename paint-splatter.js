@@ -28,11 +28,11 @@ Walker.prototype.walk = function() {
     this.x += xStepSize;
     this.y += yStepSize;
     
-    if(this.x > 400){
-        this.x = width/2;
+    if(this.x > 400 || this.x < 0){
+        this.x = width;
     }
-    if(this.y > 400){
-        this.y = height/2;
+    if(this.y > 400|| this.y < 0){
+        this.y = height;
     }
 };
 
