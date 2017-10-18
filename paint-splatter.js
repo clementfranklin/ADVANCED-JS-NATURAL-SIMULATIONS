@@ -10,9 +10,9 @@ var Walker = function() {
 
 Walker.prototype.display = function(){ 
     
-var r = random(1,255);
-var r1 = random (1,255);
-var r2= random (1,255);
+var r = random(35,255);
+var r1 = random (25,255);
+var r2= random (50,255);
 
     strokeWeight(20);
     stroke(r, r2, r1);
